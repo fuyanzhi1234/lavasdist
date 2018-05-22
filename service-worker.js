@@ -21,7 +21,7 @@ workboxSW.precache([
   },
   {
     "url": "/lavasdist/index.html",
-    "revision": "18f982aa4ec200d0fcdc46d60fbf0436"
+    "revision": "c00b6fc1aff85e060d26ca876a0f5ece"
   },
   {
     "url": "/lavasdist/static/css/index.4e844628.css"
@@ -92,7 +92,7 @@ workboxSW.precache([
     "revision": "7264d2ec7553bb96307af4acbe697faf"
   },
   {
-    "url": "/lavasdist/static/js/index.1324efd3.js"
+    "url": "/lavasdist/static/js/index.38053839.js"
   },
   {
     "url": "/lavasdist/static/js/manifest.51866325.js"
@@ -108,7 +108,7 @@ workboxSW.precache([
     "revision": "a9890beda9e5f17e4c68f42324217941"
   }
 ]);
-workboxSW.router.registerNavigationRoute('/index.html');
+workboxSW.router.registerNavigationRoute('/lavasdist/index.html');
 
 
 /**
