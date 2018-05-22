@@ -1,6 +1,6 @@
 {
     "mode": "history",
-    "base": "/lavasdist",
+    "base": "/",
     "routes": [
         {
             "path": "/appshell",
