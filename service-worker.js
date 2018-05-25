@@ -21,7 +21,7 @@ workboxSW.precache([
   },
   {
     "url": "/lavasdist/index.html",
-    "revision": "50e0eb822e4c71e341e7e4bdb5418e9c"
+    "revision": "153ed6c850d58f3dd35f8d7a1e51618e"
   },
   {
     "url": "/lavasdist/static/css/index.4e844628.css"
@@ -92,7 +92,7 @@ workboxSW.precache([
     "revision": "7264d2ec7553bb96307af4acbe697faf"
   },
   {
-    "url": "/lavasdist/static/js/index.a48222e0.js"
+    "url": "/lavasdist/static/js/index.eb2d0972.js"
   },
   {
     "url": "/lavasdist/static/js/manifest.51866325.js"
@@ -135,6 +135,15 @@ workboxSW.router.registerRoute(new RegExp('https://query\.yahooapis\.com/v1/publ
         }
     })
 );
+
+self.addEventListener('push', function (event) {
+    console.log(event.data.json())
+    if (event.data) {
+    var promiseChain = Promise.resolve(event.data.json())
+            .then(data => self.registration.showNotification(data.title, {}));
+    event.waitUntil(promiseChain);
+}
+});
 
 
 // workboxSW.router.registerRoute(/^https:\/\/cdn\.baidu\.com/i,
