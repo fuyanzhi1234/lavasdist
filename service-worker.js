@@ -21,7 +21,7 @@ workboxSW.precache([
   },
   {
     "url": "/lavasdist/index.html",
-    "revision": "153ed6c850d58f3dd35f8d7a1e51618e"
+    "revision": "38503f106e776cb24f2ba2d35459026e"
   },
   {
     "url": "/lavasdist/static/css/index.4e844628.css"
@@ -92,13 +92,13 @@ workboxSW.precache([
     "revision": "7264d2ec7553bb96307af4acbe697faf"
   },
   {
-    "url": "/lavasdist/static/js/index.eb2d0972.js"
+    "url": "/lavasdist/static/js/index.6f31da1f.js"
   },
   {
     "url": "/lavasdist/static/js/manifest.51866325.js"
   },
   {
-    "url": "/lavasdist/static/js/vendor.905fd18b.js"
+    "url": "/lavasdist/static/js/vendor.6414d44e.js"
   },
   {
     "url": "/lavasdist/static/js/vue.353db202.js"
@@ -136,15 +136,19 @@ workboxSW.router.registerRoute(new RegExp('https://query\.yahooapis\.com/v1/publ
     })
 );
 
-self.addEventListener('push', function (event) {
-    console.log(event.data.json())
-    if (event.data) {
-    var promiseChain = Promise.resolve(event.data.json())
-            .then(data => self.registration.showNotification(data.title, {}));
-    event.waitUntil(promiseChain);
-}
-});
+// self.addEventListener('push', function (event) {
+//     console.log(event.data.json())
+//     if (event.data) {
+//     var promiseChain = Promise.resolve(event.data.json())
+//             .then(data => self.registration.showNotification(data.title, {}));
+//     event.waitUntil(promiseChain);
+// }
+// });
 
+// 在 SW 中使用
+self.registration.showNotification("New mail from Alice", {
+    actions: [{action: 'archive', title: "Archive"}]
+  });
 
 // workboxSW.router.registerRoute(/^https:\/\/cdn\.baidu\.com/i,
 //     workboxSW.strategies.cacheFirst({

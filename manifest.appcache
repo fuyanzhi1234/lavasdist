@@ -1,34 +1,34 @@
 CACHE MANIFEST
-# d83e3d49ca69433bd1dc
+# f864cc3a9d308c10a449
 
 /lavasdist/static/fonts/MaterialIcons-Regular.012cf6a1.woff
 /lavasdist/static/fonts/MaterialIcons-Regular.a37b0c01.ttf
 /lavasdist/static/fonts/MaterialIcons-Regular.570eb838.woff2
-/lavasdist/static/js/vendor.905fd18b.js
-/lavasdist/static/js/index.eb2d0972.js
+/lavasdist/static/js/vendor.6414d44e.js
+/lavasdist/static/js/index.6f31da1f.js
 /lavasdist/static/js/vue.353db202.js
 /lavasdist/static/js/manifest.51866325.js
 /lavasdist/static/css/index.4e844628.css
-/lavasdist/static/js/vendor.905fd18b.js.map
-/lavasdist/static/js/index.eb2d0972.js.map
+/lavasdist/static/js/vendor.6414d44e.js.map
+/lavasdist/static/js/index.6f31da1f.js.map
 /lavasdist/static/js/vue.353db202.js.map
 /lavasdist/static/js/manifest.51866325.js.map
+/lavasdist/static/js/workbox-sw.prod.v2.1.3.js.map
+/lavasdist/static/js/workbox-sw.prod.v2.1.3.js
 /lavasdist/static/fonts/MaterialIcons-Regular.ttf
 /lavasdist/static/fonts/MaterialIcons-Regular.woff
 /lavasdist/static/fonts/MaterialIcons-Regular.woff2
-/lavasdist/static/img/icons/android-chrome-144x144.png
-/lavasdist/static/img/icons/android-chrome-512x512.png
 /lavasdist/static/img/icons/apple-touch-icon-120x120.png
 /lavasdist/static/img/icons/apple-touch-icon-152x152.png
 /lavasdist/static/img/icons/apple-touch-icon-180x180.png
-/lavasdist/static/js/workbox-sw.prod.v2.1.3.js.map
-/lavasdist/static/js/workbox-sw.prod.v2.1.3.js
-/lavasdist/static/img/icons/apple-touch-icon-76x76.png
-/lavasdist/static/img/icons/favicon-32x32.png
 /lavasdist/static/img/icons/apple-touch-icon-60x60.png
-/lavasdist/static/img/icons/favicon-16x16.png
-/lavasdist/static/img/icons/favicon.ico
 /lavasdist/static/img/icons/android-chrome-192x192.png
+/lavasdist/static/img/icons/android-chrome-512x512.png
+/lavasdist/static/img/icons/apple-touch-icon-76x76.png
+/lavasdist/static/img/icons/favicon-16x16.png
+/lavasdist/static/img/icons/favicon-32x32.png
+/lavasdist/static/img/icons/android-chrome-144x144.png
+/lavasdist/static/img/icons/favicon.ico
 /lavasdist/favicon.ico
 /lavasdist/index.html
 /lavasdist/sw-register.js
