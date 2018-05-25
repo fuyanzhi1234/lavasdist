@@ -21,7 +21,7 @@ workboxSW.precache([
   },
   {
     "url": "/lavasdist/index.html",
-    "revision": "57b495d7d6092d6e396ab80b7476dde7"
+    "revision": "50e0eb822e4c71e341e7e4bdb5418e9c"
   },
   {
     "url": "/lavasdist/static/css/index.4e844628.css"
@@ -92,7 +92,7 @@ workboxSW.precache([
     "revision": "7264d2ec7553bb96307af4acbe697faf"
   },
   {
-    "url": "/lavasdist/static/js/index.36bd2892.js"
+    "url": "/lavasdist/static/js/index.a48222e0.js"
   },
   {
     "url": "/lavasdist/static/js/manifest.51866325.js"
